@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## makeCacheMatrix creates matrix whereas cacheSolve checks if cache exists, recalcs and caches if no cache exists or returns cache if exists
 
-## Write a short comment describing this function
+## creates matrix
 
 makeCacheMatrix <- function(x = matrix()) {
  i <- NULL
@@ -16,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
   
 }
 
-## Write a short comment describing this function
+## runs cache check and recalcs if necessary or returns cache if exists
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
